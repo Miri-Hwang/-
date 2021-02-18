@@ -10,8 +10,4 @@ def solution(array, commands):
         k = command[2]
         newarray = sorted(array[i-1:j])
         answer.append(newarray[k-1])
-        print(newarray)
     return answer
-
-
-print(solution(array, commands))
